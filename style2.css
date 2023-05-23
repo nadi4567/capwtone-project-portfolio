@@ -1,0 +1,135 @@
+body{
+    background-color: #F9F5F6 ;
+}
+#image{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   
+}
+#image h3{
+    max-width: fit-content;
+    
+}
+.nadi{
+    height: 100px;width: 100px;
+    border-radius: 50%;
+}
+.first{
+    padding-top: 30px;
+    background-color:  #AEE2FF;
+    height: 500px;
+}
+
+
+
+.coffee{
+    
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: center;padding:100px 30px;gap: 30px;
+    
+    
+}
+
+
+.coffee p{
+    font-weight: bolder;
+    max-width: 550px;text-align: justify;
+    flex-shrink: 1;
+   
+    font-family: 'Caveat', cursive;
+    
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+button{
+    border-radius: 10px;
+    background-color: #ADE4DB;
+    text-align: center;padding: 9px 20px;
+   
+}
+button:hover{
+    background-color: #FFE569;
+    border: 2px solid #AEE2FF;
+}
+.footer{
+    background-color: #FFEEB3;
+    padding-bottom: 100px;
+}
+.second-container{
+    display: flex;
+    gap: 50px;padding: 50px;
+    
+    
+}
+
+.skill{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.background{
+    flex-basis:50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+.fact{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+@media (max-width:1005px){
+    .second-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+}
+@media (max-width:790px){
+   .fact{
+    flex-direction: column;
+   }
+   
+}
+
+.skill h1{
+    margin-bottom: 60px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Mono', monospace;
+    color: #E55807;font-weight: bold;
+}
+.skill ul{
+    font-family: 'Caveat', cursive;
+    font-weight: bolder;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+.background p{
+    
+    font-weight: bolder;
+    font-family: 'Caveat', cursive;
+    
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+.background h1{
+    margin-bottom: 60px;
+    font-family: 'Playfair Display', serif;
+   font-family: 'Roboto Mono', monospace;
+   color: #E55807;font-weight: bold;
+}
+a{
+    text-decoration: none;
+   
+}
